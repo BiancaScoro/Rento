@@ -1,0 +1,64 @@
+.search-form{
+    display: flex;
+    min-width: 60rem;
+    position: absolute;
+    top: 370px;
+    left: 305px;
+    border: none;
+    outline: none;
+}
+
+.location-box,
+.category-box {
+    border: none;
+    width: 35%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7px;
+    label {
+        margin-bottom: 2%;
+      }
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: regular;
+}
+
+.location-box {
+    border-radius: 0.5rem 0 0 0.5rem;
+    border: none;
+  }
+
+  
+input, select {
+    border: none;
+    background-color: white;
+    color: black;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+  }
+
+  .search-button {
+    width: 20%;
+    border-radius: 0 0.5rem 0.5rem 0;
+    border: 0.1rem solid transparent;
+    color: white;
+    background-color: #204049;
+    &:hover,
+    &:focus {
+        background-color: #4D7683;
+      color: black;
+    }
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+    font-size: large;
+  }
+
+  
+@media (max-width: 650px) {
+  .search-form{
+    top: 290px;
+    left: 40px;
+    min-width: 40rem;
+  }
+}

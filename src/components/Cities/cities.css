@@ -1,0 +1,56 @@
+.cities-section .wrapper{
+    padding: 20px;
+}
+
+.cities-container{
+    padding: 4%;
+}
+
+.header h2{
+    font-family:'Libre Franklin', sans-serif;
+    color: #525050;
+}
+
+.cities-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% 0;
+    list-style-type: none;
+  
+    li {
+      flex-basis: 10%;
+  
+      button {
+        padding: 1.4rem 3.9rem;
+        border-radius: 14px;
+        border: none;
+      }
+    }
+  }
+
+  .city-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 0;
+    color: #fff;
+    font-family:'Libre Franklin', sans-serif;
+  }
+
+  .toronto-button{
+    background-color: #ABBEC5;
+  }
+  
+  .edmonton-button{
+  background-color: #86A2AB;
+  }
+
+  .calgary-button{
+  background-color: #668995;
+  }
+
+ .winnipeg-button{
+    background-color: #4F7885;
+ }

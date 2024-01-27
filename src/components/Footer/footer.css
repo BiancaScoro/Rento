@@ -1,0 +1,85 @@
+footer{
+    background-color: #4D7683;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-container .wrapper{
+    padding: 40px;
+}
+
+.footer-logo{
+    padding: 40px;
+}
+
+.footer-nav-container{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    gap: 30px;
+}
+
+.links-ul{
+    list-style-type: none;
+    padding-top: 40px;
+}
+
+
+h4{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.footer-link{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.newsletter-box{
+    padding-top: 90px;
+}
+
+#newsletter{
+    padding: 16px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #fff;
+    opacity: 42%;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.send-button{
+    background-color: #fff;
+    padding: 16px 25px;
+    border-radius: 0 5px 5px 0px;
+    border: none;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+@media (max-width: 650px) {
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .footer-nav-container{
+        padding: 90px;
+    }
+
+    .links-ul{
+        padding-top: 0px;
+    }
+
+    .footer-logo{
+        padding: 20px;
+    }
+
+    .newsletter-box{
+        padding: 40px;
+    }
+}

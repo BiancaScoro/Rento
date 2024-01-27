@@ -1,0 +1,81 @@
+.recent-section .wrapper{
+    padding: 20px;
+}
+
+.recent-header{
+    display: flex;
+    gap: 1000px;
+}
+
+.recent-header h3{
+    font-size: 25px;
+    font-family:'Libre Franklin', sans-serif;
+    color: #525050;
+    padding-left: 50px;
+}
+
+.recent-link{
+    text-decoration: none;
+    color: #525050;
+    font-family:'Libre Franklin', sans-serif;
+    padding-top: 20px;
+}
+
+.recent-ul{
+    display: flex;
+    gap: 90px;
+    padding-left:85px;
+    padding-top: 40px;
+}
+
+.recent-div{
+    width: 25%;
+    position: relative;
+    margin-bottom: 35px;
+    height: 22rem;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+    border-radius: 15px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recent-div img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+    height: 13rem;
+}
+
+.recent-category{
+    padding: 15px;
+    font-family:'Libre Franklin', sans-serif;
+    color: #525050;
+}
+
+.recent-price{
+    padding: 15px;
+    font-family:'Libre Franklin', sans-serif;
+}
+
+@media (max-width: 650px) {
+    .recent-ul{
+        gap: 20px;
+    }
+
+    .recent-div{
+        width: 40%;
+    }
+
+    .recent-header{
+        gap: 350px;
+    }
+
+    .recent-header h3{
+        padding-left: 20px;
+        
+    }
+}
